@@ -1,6 +1,6 @@
 import express from "express";
 import React from "react";
-import { renderToString } from "react-dom/server";
+import { renderToString, renderToStaticMarkup } from "react-dom/server";
 import Page from "../comp/Page";
 
 const app = express();
